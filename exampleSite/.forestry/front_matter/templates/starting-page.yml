@@ -8,3 +8,13 @@ fields:
     required: false
   label: test
   description: This is a test
+- name: another_test
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: another test
+  description: This is another test to see if there is a deploy
