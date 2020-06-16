@@ -1,4 +1,10 @@
 ---
 label: Starting Page
 hide_body: false
-fields: []
+fields:
+- name: test
+  type: text
+  config:
+    required: false
+  label: test
+  description: This is a test
